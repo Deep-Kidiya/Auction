@@ -134,6 +134,27 @@ header .banner img {
 
     /* End of Quick Connect */
 
+    /* About Us */
+
+    .about .image img {
+        position: relative;
+        width: 500px;
+        padding: 885px 0px 0px 0px;
+        margin-left: 200px;
+    }
+
+    .about .image .o-box {
+        background: #D5905C;
+        position: absolute;
+        height: 225px;
+        margin: -185px 0px 0px 157px;
+        opacity: 70%;
+        width: 215px;
+    }
+    
+    /* End of About Us */
+
+
 }
 
 
@@ -176,7 +197,7 @@ header .banner img {
 
     .connect .bg-box {
         position: absolute;
-        padding: 50px 165px 35px 90px;
+        padding: 50px 165px 90px 90px;
         margin-top: 150px;
         background: #24252D;
     }
@@ -229,6 +250,12 @@ header .banner img {
 
     /* End of Quick Connect */
 
+    /* About Us */
+
+
+
+    /*  */
+
 }
 
 
@@ -275,7 +302,7 @@ header .banner img {
 
     .connect .bg-box {
         position: absolute;
-        padding: 11px 88px 11px 35px;
+        padding: 11px 88px 11px 50px;
         margin-top: 28px;
         background: #24252D;
     }
@@ -290,9 +317,10 @@ header .banner img {
     .connect .l-box {
         height: 0.1px;
         margin-top: -6px;
-        width: 119px;
+        width: 141px;
         background: #D5905C;
-        margin-left: -37px;
+        margin-left: -55px;
+}
     }
 
     .connect .l-box-1 {
@@ -341,6 +369,8 @@ header .banner img {
         font-size: 7px;
         border-radius: 0;
     }
+
+    
 
     /* End of Quick Connect */
 
