@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .banner img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background: #D5905C;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .4s ease;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #D5905C;
+    border-color: #D5905C;
+}
+
+@media (max-width: 1980px) {
+    /* Header */
+
+    .container .btn {
+        font-size: 14px;
+        margin: 15px 135px 0px 0px;
+        padding: 16px 36px;
+
+    }
+
+    header .flex img {
+        height: 75px;
+        padding: 35px 0px 0px 135px;
+    }
+
+    .text-1 {
+        position: relative;
+    }
+
+
+    .text-1 h1 {
+        padding: 200px 0px 0px 135px;
+        font-size: 92px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .text-1 p {
+        padding: 10px 0px 0px 135px;
+        font-size: 23.5px;
+        color: #fff;
+        font-weight: 100;
+    }
+    /* End of Header */
+
+    /* Quick Connect */
+
+    .connect .bg-box {
+        position: absolute;
+        padding: 59px 165px 140px 136px;
+        margin-top: 218px;
+        background: #24252D;
+    }
+
+    .connect h1 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .connect .l-box {
+        height: 3px;
+        margin-top: -22px;
+        width: 175px;
+        background: #D5905C;
+        margin-left: 273px;
+    }
+
+    .bg-box .input-1 .a-1 {
+        margin: 85px 0 0 0;
+        background: #2F2F36;
+        color: #D5905C;
+        border: 2px solid;
+        border-color: #444444;
+        padding: 24px 360px 25px 32px;
+    }
+
+    .bg-box .input-1 .a-2 {
+        margin-left: 16px;
+    }
+
+    .bg-box .input-2 .a-1 {
+        margin: 16px 0 0 0;
+        background: #2F2F36;
+        color: #D5905C;
+        border: 2px solid;
+        border-color: #444444;
+        padding: 24px 165px 25px 32px;
+    }
+
+    .bg-box .input-2 .a-2 {
+        margin-left: 16px;
+    }
+
+    .bg-box .input-2 .btn {
+        margin-left: 16px;
+        padding: 20px 160px;
+        font-size: 20px;
+    }
+
+    /* End of Quick Connect */
+
+}
+
+
+@media (max-width: 1680px) {
+
+    /* Header */
+
+    .container .btn {
+        padding: 12px 18px;
+        margin: 10px 80px 0px 0px;
+        font-size: 12px;
+    }
+
+    header .flex img {
+        height: 65px;
+        padding: 35px 0px 0px 90px;
+    }
+
+    .text-1 {
+        position: relative;
+    }
+
+
+    .text-1 h1 {
+        padding: 130px 0px 0px 90px;
+        font-size: 72px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .text-1 p {
+        padding: 10px 0px 0px 90px;
+        font-size: 18.5px;
+        color: #fff;
+        font-weight: 100;
+    }
+    /* End of Header */
+
+    /* Quick Connect */
+
+    .connect .bg-box {
+        position: absolute;
+        padding: 50px 165px 35px 90px;
+        margin-top: 150px;
+        background: #24252D;
+    }
+
+    .connect h1 {
+        color: #fff;
+        font-size: 33px;
+        font-weight: bold;
+    }
+
+    .connect .l-box {
+        height: 2px;
+        margin-top: -18px;
+        width: 125px;
+        background: #D5905C;
+        margin-left: 219px;
+    }
+
+    .bg-box .input-1 .a-1 {
+        margin: 85px 0 0 0;
+        background: #2F2F36;
+        color: #D5905C;
+        border: 2px solid;
+        border-color: #444444;
+        padding: 20px 235px 20px 25px;
+    }
+
+    .bg-box .input-1 .a-2 {
+        margin-left: 14px;
+    }
+
+    .bg-box .input-2 .a-1 {
+        margin: 15px 0 0 0;
+        background: #2F2F36;
+        color: #D5905C;
+        border: 2px solid;
+        border-color: #444444;
+        padding: 20px 95px 20px 25px;
+    }
+
+    .bg-box .input-2 .a-2 {
+        margin-left: 16px;
+    }
+
+    .bg-box .input-2 .btn {
+        margin-left: 16px;
+        padding: 16px 104px;
+        font-size: 20px;
+    }
+
+    /* End of Quick Connect */
+
+}
+
+
+@media (max-width: 1080px) {
+
+    /* Header */
+
+    .container .btn {
+        padding: 1px 3px;
+        margin: 0px 16px 0px 0px;
+        border-radius: 0;
+        font-size: 3px;
+    }
+
+    header .flex img {
+        height: 60px;
+        padding: 50px 0px 0px 31px;
+        margin-top: -40px;
+    }
+
+    .text-1 {
+        position: relative;
+    }
+
+
+    .text-1 h1 {
+        padding: 30px 0px 0px 35px;
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .text-1 p {
+        padding: 10px 0px 0px 35px;
+        font-size: 4.3px;
+        color: #fff;
+        font-weight: 100;
+    }
+
+
+    /* End of Header */
+
+    /* Quick Connect */
+
+    .connect .bg-box {
+        position: absolute;
+        padding: 11px 88px 11px 35px;
+        margin-top: 28px;
+        background: #24252D;
+    }
+
+    .connect h1 {
+        color: #fff;
+        font-size: 11px;
+        margin-left: 123px;
+        font-weight: bold;
+    }
+
+    .connect .l-box {
+        height: 0.1px;
+        margin-top: -6px;
+        width: 119px;
+        background: #D5905C;
+        margin-left: -37px;
+    }
+
+    .connect .l-box-1 {
+        height: 0.1px;
+        margin-top: -1px;
+        width: 119px;
+        background: #D5905C;
+        margin-left: 224px;;
+    }
+
+    .bg-box .input-1 .a-1 {
+        margin: 23px 0 0 8px;
+        background: #2F2F36;
+        color: #D5905C;
+        width: 138px;
+        border: 2px solid;
+        text-align: center;
+        font-size: 6px;
+        border-color: #444444;
+        padding: 6px 0 6px 0
+    }
+
+    .bg-box .input-1 .a-2 {
+        margin-left: 4px;
+    }
+
+    .bg-box .input-2 .a-1 {
+        margin: 4px 0 0 8px;
+        background: #2F2F36;
+        color: #D5905C;
+        width: 108px;
+        border: 2px solid;
+        text-align: center;
+        font-size: 6px;
+        border-color: #444444;
+        padding: 6px 0 6px 0;
+    }
+
+    .bg-box .input-2 .a-2 {
+        margin-left: 4px;
+    }
+
+    .bg-box .input-2 .btn {
+        margin-left: 4px;
+        padding: 5px 16px;
+        font-size: 7px;
+        border-radius: 0;
+    }
+
+    /* End of Quick Connect */
+
+}
